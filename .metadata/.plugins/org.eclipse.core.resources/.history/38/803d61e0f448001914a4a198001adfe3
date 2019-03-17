@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+    <bean id="SO" class="com.fauzan.model.SinteticLeatherShoesOrigin">	
+    </bean>
+
+    <bean id="Specs" class="com.fauzan.model.SpecsShoes">
+		<property name="KindofShoes" value="Light Speed"></property>
+		<property name="size" value="1"></property>
+		<property name="Colour" value="Red"></property>
+		<!-- <property name="SinteticLeather" ref="SO"></property> -->
+		<constructor-arg ref="SO"></constructor-arg>
+    </bean>
+    
+
+</beans>
+

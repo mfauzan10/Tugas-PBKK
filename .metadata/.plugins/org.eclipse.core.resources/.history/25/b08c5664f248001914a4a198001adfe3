@@ -1,0 +1,69 @@
+package com.fauzan.model;
+
+public class SpecsShoes implements Shoes {
+	
+	final String BrandsShoes;
+	private String KindofShoes;
+	private int size;
+	private String Colour;
+	
+	private ShoesOrigin SinteticLeather;
+	
+	
+	
+	public ShoesOrigin getSinteticLeather() {
+		return SinteticLeather;
+	}
+	
+	public void setSinteticLeather(ShoesOrigin realLeather) {
+		SinteticLeather = realLeather;
+	}
+
+	@Override
+	public String toString() {
+		return "SpecsShoes [BrandsShoes=" + BrandsShoes + ", KindofShoes=" + KindofShoes + ", size=" + size
+				+ ", Colour=" + Colour + ", SinteticLeather=" + SinteticLeather + "]";
+	}
+
+	public SpecsShoes() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public SpecsShoes(String kindofShoes, int size, String colour) {
+		super();
+		KindofShoes = kindofShoes;
+		this.size = size;
+		Colour = colour;
+	}
+
+	public String getKindofShoes() {
+		return KindofShoes;
+	}
+
+	public void setKindofShoes(String kindofShoes) {
+		KindofShoes = kindofShoes;
+	}
+
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
+
+	public String getColour() {
+		return Colour;
+	}
+
+	public void setColour(String colour) {
+		Colour = colour;
+	}
+	
+	@Override
+	public void ShoesDetails() {
+		// TODO Auto-generated method stub
+		System.out.println(this.toString());
+	}
+
+}

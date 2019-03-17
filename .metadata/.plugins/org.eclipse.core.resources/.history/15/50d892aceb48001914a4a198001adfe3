@@ -1,0 +1,11 @@
+package com.fauzan.model;
+
+public class AdidasShoes implements Shoes {
+
+	@Override
+	public void ShoesDetails() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

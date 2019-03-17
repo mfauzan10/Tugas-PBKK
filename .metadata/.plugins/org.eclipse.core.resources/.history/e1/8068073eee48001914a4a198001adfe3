@@ -1,0 +1,14 @@
+package com.fauzan.model;
+
+public class ShoesOrigin implements ShoesMaterial {
+
+	private String origin;
+	
+	
+	@Override
+	public void MaterialofShoes() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
