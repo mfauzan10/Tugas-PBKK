@@ -1,0 +1,11 @@
+package com.fauzan.model;
+
+public class DoorCars implements CarsInfo {
+
+	@Override
+	public void CarInformation() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.fauzan.model;
+
+public class RockSongs implements SongsDetail {
+	
+	final String genre="Rock";
+	private String Singer;
+	private String Author;
+
+	@Override
+	public void SongDetil() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

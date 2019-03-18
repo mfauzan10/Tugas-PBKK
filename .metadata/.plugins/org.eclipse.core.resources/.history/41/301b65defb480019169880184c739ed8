@@ -1,0 +1,11 @@
+package com.fauzan.model;
+
+public class RockSongs implements SongsDetail {
+
+	@Override
+	public void SongDetil() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.fauzan.model;
+
+public class Songs1980 implements ReleasedYearSongs {
+
+	@Override
+	public void ReleaseYear() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
