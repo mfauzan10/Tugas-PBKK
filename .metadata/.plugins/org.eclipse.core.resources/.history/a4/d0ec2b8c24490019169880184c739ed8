@@ -14,7 +14,7 @@ public class MainApp {
 		
 		Cars car = context.getBean("cars1",Cars.class);
 		SuvCars suvCar = (SuvCars) car;
-		suvCar.CarDetails();
+		SuvCars.CarDetails;
 		
 	}
 
