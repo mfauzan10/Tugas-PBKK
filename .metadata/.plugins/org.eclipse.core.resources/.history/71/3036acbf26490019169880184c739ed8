@@ -4,7 +4,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import com.fauzan.model.Cars;
 import com.fauzan.model.CarsConfig;
-import com.fauzan.model.HatchbackCars;
 import com.fauzan.model.SuvCars;
 
 public class MainApp {
@@ -17,9 +16,6 @@ public class MainApp {
 		SuvCars suvCar = (SuvCars) car;
 		suvCar.CarDetails();
 		
-		Cars car1 = context.getBean("hatchbackCars",Cars.class);
-		HatchbackCars hCar = (HatchbackCars) car1;
-		hCar.CarDetails();
 	}
 
 }

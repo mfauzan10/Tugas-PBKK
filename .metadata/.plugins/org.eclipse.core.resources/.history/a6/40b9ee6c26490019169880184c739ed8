@@ -21,11 +21,4 @@ public class CarsConfig {
 		return suvCar;
 	}
 	
-	@Bean
-	public Cars hatchbackCars() {
-		HatchbackCars hatchCar = new HatchbackCars();
-		
-		return hatchCar;
-	}
-	
 }

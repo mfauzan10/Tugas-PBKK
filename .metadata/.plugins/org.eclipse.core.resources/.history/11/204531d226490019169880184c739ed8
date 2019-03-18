@@ -42,13 +42,6 @@ public class HatchbackCars implements Cars {
 		return ReleasedYearCar;
 	}
 
-	
-
-	@Override
-	public String toString() {
-		return "HatchbackCars [nameCar=" + nameCar + ", ReleasedYearCar=" + ReleasedYearCar + ", price=" + price + "]";
-	}
-
 
 
 	public void setReleasedYearCar(String releasedYearCar) {
@@ -71,7 +64,7 @@ public class HatchbackCars implements Cars {
 
 	@Override
 	public void CarDetails() {
-		System.out.println(toString());
+		// TODO Auto-generated method stub
 
 	}
 
